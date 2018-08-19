@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* general */
+
+.main-content {
+  margin: 0;   
+  padding: 20px;
+  line-height: 200%;
+  text-align: justify;
+  background-color: #f8f9fa; 
+  border: solid 1px #ccc;
+  font-family: 'Waiting for the Sunrise', cursive;
+}
+
+.nav-item, 
+footer,
+.caption {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+/* navigation */
+
+.navbar-brand {
+  font-family: 'Monoton', cursive;
+}
+
+/* about me page */
+
+.img-thumbnail {
+  width: 50%;
+  height: atuo;
+	margin-left: 25%;
+}
+
+
+/* portfolio page */
+
+.rounded {
+  width: 70%;
+  height: auto;
+  padding-bottom: 5%;
+}
+
+.caption {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  padding: 3px;
+  background-color: #f8f9fa;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+/* contact me page */
+
+form {
+  margin: 0 8% 0 8%; 
+}
+
+/* footer */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  display: block;
+  background-color:#f8f9fa;
+  text-align: center;
+  padding: 1%;
+  
+}
+
+
