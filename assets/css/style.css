@@ -15,7 +15,6 @@ body {
   text-align: justify;
   background-color: #f8f9fa; 
   border: solid 1px #ccc;
-  font-family: 'Waiting for the Sunrise', cursive;
 }
 
 .nav-item, 
@@ -31,13 +30,15 @@ footer,
 }
 
 /* about me page */
+.card-body {
+  font-family: 'Waiting for the Sunrise', cursive;
+}
 
 .img-thumbnail {
   width: 50%;
   height: atuo;
 	margin-left: 25%;
 }
-
 
 /* portfolio page */
 
@@ -49,12 +50,13 @@ footer,
 
 .caption {
   position: absolute;
-  top: 10%;
-  left: 20%;
+  top: 15%;
+  right: 20%;
   padding: 3px;
-  background-color: #f8f9fa;
-  opacity: 0.6;
+  background-color: #ccc;
+  opacity: 0.9;
   filter: alpha(opacity=60);
+  border: 3px solid #333;
 }
 
 /* contact me page */
@@ -74,7 +76,6 @@ form {
   background-color:#f8f9fa;
   text-align: center;
   padding: 1%;
-  
 }
 
 
