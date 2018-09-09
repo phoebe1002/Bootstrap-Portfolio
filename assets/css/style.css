@@ -53,10 +53,10 @@ footer,
   top: 30%;
   right: 20%;
   padding: 3px;
-  background-color: #ccc;
-  opacity: 0.9;
+  background-color: white;
+  opacity: 0.6;
   filter: alpha(opacity=60);
-  border: 3px solid #333;
+  border-radius: 10%;
 }
 
 /* contact me page */
