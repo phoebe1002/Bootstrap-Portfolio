@@ -7,7 +7,17 @@ body {
 }
 
 /* general */
-
+#background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  top: 0px;
+}
+.navbar, footer {
+  opacity: 0.6;
+}
 .main-content {
   margin: 0;   
   padding: 20px;
@@ -15,6 +25,8 @@ body {
   text-align: justify;
   background-color: #f8f9fa; 
   border: solid 1px #ccc;
+  opacity: 0.9;
+  filter: alpha(opacity=80);
 }
 
 .nav-item, 
@@ -24,7 +36,6 @@ footer,
 }
 
 /* navigation */
-
 .navbar-brand {
   font-family: 'Monoton', cursive;
 }
@@ -56,11 +67,16 @@ footer,
   background-color: white;
   opacity: 0.6;
   filter: alpha(opacity=60);
-  border-radius: 10%;
+  /* border-radius: 10%; */
+  
 }
-
+.caption a:hover {
+  color: goldenrod;
+}
 /* contact me page */
-
+a:visited {
+  color: gray;
+}
 form {
   margin: 0 8% 0 8%; 
 }
